@@ -40,6 +40,15 @@ public abstract class ConcreteSortArray implements SortArray {
 		values[i] = values[j];
 		values[j] = tmp;
 	}
+	
+	@Override
+	public boolean compareAndSwap(int i, int j) {
+		if (compare(i, j) == 1) {
+			swap(i,j);
+			return true;
+		}
+		return false;
+	}
 
 	@Override
 	public void shuffle() {

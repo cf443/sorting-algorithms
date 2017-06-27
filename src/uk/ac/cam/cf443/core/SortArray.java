@@ -23,6 +23,9 @@ public interface SortArray {
 	//Swaps the elements arr[i] and arr[j]
 	public void swap(int i, int j);
 	
+	//Swaps the elements arr[i] and arr[j] iff arr[i] > arr[j], returning true if a swap occured
+	public boolean compareAndSwap(int i, int j);
+	
 	//Randomises the order of all of the elements in the array
 	public void shuffle();
 	
