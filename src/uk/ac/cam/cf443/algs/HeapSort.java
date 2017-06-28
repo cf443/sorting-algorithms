@@ -20,6 +20,7 @@ public final class HeapSort extends ConcreteSortAlgorithm {
 	 * 
 	 * Time complexity: O(n log n)
 	 */
+	@Override
 	public void sort(SortArray array) {
 		
 		//Heapify
