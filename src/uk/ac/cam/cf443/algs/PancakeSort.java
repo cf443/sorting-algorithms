@@ -9,10 +9,10 @@ public final class PancakeSort extends ConcreteSortAlgorithm {
 	private PancakeSort() {super("Pancake sort");}
 	
 	/**
-	 * The pancake sort algorithm. Solves the problem of sorting the array using the minimum
-	 * number of reversals. The algorithms is a variation of selection sort, we bring the largest
-	 * pancake not yet sorted to the top with one flip and take it down to its final position with
-	 * one more flip. At most 2n-3 flips are necessary.
+	 * The pancake sort algorithm. Attempts to sort an array using the minimum number of reversals.
+	 * The algorithm is a variation of selection sort: we bring the largest pancake not yet sorted
+	 * to the top with one flip and take it down to its final position with one more flip. At most
+	 * 2n-3 flips are necessary.
 	 * 
 	 * Time complexity: O(n^2)
 	 */
